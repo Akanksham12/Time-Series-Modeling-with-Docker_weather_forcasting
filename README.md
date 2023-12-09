@@ -1,21 +1,22 @@
-# **Time-Series-Modeling-with-Docker_weather_forcasting**
-
 ##**Weather Forecasting with LSTM**
 This project focuses on weather forecasting using an LSTM-based model. It uses historical weather data, including various parameters like pressure, temperature, wind speed, etc., to predict future temperatures.
 
- ```bash
+```bash
      git clone https://github.com/Akanksham12/weather-forecast-lstm.git
      cd weather-forecast-lstm
+```
      Install Dependencies: Ensure you have the necessary dependencies installed. You can use pip:
 
- ```bash
+```bash
      pip install pandas matplotlib tensorflow
      Dataset and Pre-trained Model:
+```
 
 **Project Structure:**
 weather_data.csv: Dataset containing weather parameters.
 weather_forecasting_lstm.ipynb: Jupyter Notebook containing the code for the project.
-Usage
+
+**Usage**
 load and preprocess the data, create the LSTM model, and train it.
 Evaluate the model's performance on the test data, visualizing loss and accuracy.
 The notebook provides insights into feature correlation through a heatmap.
